@@ -33,6 +33,13 @@
             android:layout_height="wrap_content"
             android:text="샐러리, 미나리 - 엽채류 모드 다운로드" />
 
+        <EditText
+            android:id="@+id/et_save"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content" />
+
     </LinearLayout>
+
+
 
 </LinearLayout>
