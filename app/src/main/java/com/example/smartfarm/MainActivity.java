@@ -17,9 +17,14 @@ public class MainActivity extends AppCompatActivity {
         Log.d("ACTIVITY_LC", "onCreate 호출됨");
         Toast.makeText(getApplicationContext(), "onCreate 호출됨", Toast.LENGTH_SHORT).show();
 
+
+
+
+
         Button btnModeDown = (Button) findViewById(R.id.openModeDown);
         Button btnControlFarm = (Button) findViewById(R.id.openControlFarm);
         Button btnInsertMode = (Button) findViewById(R.id.openInsertMode);
+
 
         btnModeDown.setOnClickListener(new View.OnClickListener(){
             @Override
