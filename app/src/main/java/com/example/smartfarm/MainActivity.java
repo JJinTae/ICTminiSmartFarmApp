@@ -23,7 +23,6 @@ public class MainActivity extends AppCompatActivity {
 
         Button btnModeDown = (Button) findViewById(R.id.openModeDown);
         Button btnControlFarm = (Button) findViewById(R.id.openControlFarm);
-        Button btnInsertMode = (Button) findViewById(R.id.openInsertMode);
 
 
         btnModeDown.setOnClickListener(new View.OnClickListener(){
@@ -39,13 +38,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v){
                 Intent intent = new Intent(getApplicationContext(), PageControlFarm.class);
-                startActivity(intent);
-            }
-        });
-        btnInsertMode.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v){
-                Intent intent = new Intent(getApplicationContext(), PageInsertMode.class);
                 startActivity(intent);
             }
         });

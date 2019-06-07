@@ -18,7 +18,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="모드 다운로드" />
+            android:text="모드 적용하기" />
 
         <Button
             android:id="@+id/openControlFarm"
@@ -27,12 +27,6 @@
             android:layout_weight="1"
             android:text="내 작물 관리" />
 
-        <Button
-            android:id="@+id/openInsertMode"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="모드 적용" />
     </LinearLayout>
 
     <LinearLayout
