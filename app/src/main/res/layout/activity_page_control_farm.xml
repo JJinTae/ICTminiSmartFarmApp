@@ -8,6 +8,12 @@
     android:layout_margin="10dp"
     tools:context=".PageControlFarm">
 
+    <Button
+        android:id="@+id/btnRefresh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Refresh" />
+
     <TextView
         android:id="@+id/textView4"
         android:layout_width="match_parent"
@@ -15,10 +21,10 @@
         android:gravity="center_horizontal"
         android:text="성장률" />
 
-    <View
-        android:id="@+id/view"
+    <ListView
+        android:id="@+id/listview1"
         android:layout_width="match_parent"
-        android:layout_height="300dp" />
+        android:layout_height="177dp" />
 
     <TextView
         android:id="@+id/textView5"
@@ -28,10 +34,10 @@
         android:text="재배 기간" />
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/textView_Time"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:text="textView_Time" />
 
     <TextView
         android:id="@+id/textView7"
@@ -41,10 +47,10 @@
         android:text="작물 성장률" />
 
     <TextView
-        android:id="@+id/textView8"
+        android:id="@+id/textView_Grow"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:text="textView_Grow" />
 
     <TextView
         android:id="@+id/textView9"
@@ -54,10 +60,10 @@
         android:text="배양액 사용량" />
 
     <TextView
-        android:id="@+id/textView10"
+        android:id="@+id/textView_WV"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:text="textView_WV" />
 
     <TextView
         android:id="@+id/textView11"
@@ -67,10 +73,10 @@
         android:text="배양액 농도" />
 
     <TextView
-        android:id="@+id/textView12"
+        android:id="@+id/textView_NV"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:text="textView_NV" />
 
     <TextView
         android:id="@+id/textView13"
@@ -80,8 +86,23 @@
         android:text="조도 시간" />
 
     <TextView
-        android:id="@+id/textView14"
+        android:id="@+id/textView_Light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="textView_Light" />
+
+    <TextView
+        android:id="@+id/textView_test"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="TextView" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name" />
+
 </LinearLayout>
